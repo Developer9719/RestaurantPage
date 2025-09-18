@@ -1,3 +1,5 @@
+import './basicLayoutStyles.css'; // Connecting CSS 
+
 export function loadPage() {
     // Creates the basic structure of the webpage
     const content = document.getElementById("content");
