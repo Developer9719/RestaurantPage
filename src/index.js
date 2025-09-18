@@ -6,5 +6,6 @@
  */
 
 import { loadPage } from "./pageLoad.js";
+import "./content.js";
 
 loadPage();

@@ -2,3 +2,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.two {
+    text-align: center;
+}
+
+.one, .three {
+    margin: auto;
+}
+
+button {
+    padding: 10px;
+}
