@@ -8,12 +8,14 @@
 
 // Imports the function from the file
 import { skeletonWebsite } from "./skeleton"; 
-import { homepageContent } from "./homepage";
+import { headerFooter } from "./headerAndFooter";
+import { topArea } from "./topViewport";
 import { menu } from "./menu"
 import { contact } from "./contact"
 
 // Runs the function 
 skeletonWebsite(); 
-homepageContent();
+headerFooter();
+topArea();
 menu();
 contact();

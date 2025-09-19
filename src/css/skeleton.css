@@ -1,0 +1,8 @@
+.headerGrid {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.25fr;
+}
+
+.headerGrid > h1 { /* Direct child selector */
+    text-align: center;
+}
