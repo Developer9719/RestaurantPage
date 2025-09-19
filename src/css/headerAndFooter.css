@@ -1,0 +1,16 @@
+header {
+    margin: 25px 20px 25px 20px;
+}
+
+.headerNav {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.25fr; /* Middle grid resizes 4 times as much as the left and right sides */
+}
+
+.headerNav > h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
