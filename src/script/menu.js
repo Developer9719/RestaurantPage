@@ -16,4 +16,5 @@ export function menu() {
         let itemDisplay = contentArea.appendChild(document.createElement('p'));
         itemDisplay.textContent = `${item}`;
     });
+
 }
